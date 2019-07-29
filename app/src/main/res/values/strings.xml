@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Random Phrases</string>
+    <string name="what_we_need_is">What we need is a</string>
+    <string name="what_we_need_is_an">What we need is an</string>
+    <string name="A">a</string>
+    <string name="An">an</string>
+    <string name="something">something something something</string>
+    <string name="change_theme">Change theme</string>
+    <string name="menu_extras">Extras</string>
+    <string name="menu_privacy_policy_popup">Privacy policy</string>
+    <string name="default_theme">Default</string>
+    <string name="monotone_theme">Monotone</string>
+</resources>

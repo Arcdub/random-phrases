@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/transition_colors1"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/teal_faded_900"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <RelativeLayout
+        android:id="@+id/all_content_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingBottom="64dp">
+
+            <TextView
+                android:id="@+id/what_we_need_is_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:text="@string/what_we_need_is"
+                android:textColor="@color/lighter_gray"
+                android:textSize="28sp" />
+
+        <FrameLayout
+            android:id="@+id/random_words_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/what_we_need_is_textView"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/random_word_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="125"
+                android:maxLines="1"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:text="@null"
+                android:textColor="@color/lighter_gray"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                tools:text="Something" />
+
+            <TextView
+                android:id="@+id/random_word_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="52dp"
+                android:maxLength="125"
+                android:maxLines="1"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:text="@null"
+                android:textColor="@color/lighter_gray"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                tools:text="Something" />
+
+            <TextView
+                android:id="@+id/random_word_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="104dp"
+                android:maxLength="125"
+                android:maxLines="1"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:text="@null"
+                android:textColor="@color/lighter_gray"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                tools:text="Something" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floating_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/all_content_container"
+        android:layout_centerInParent="true"
+        android:padding="24dp"
+        android:src="@drawable/ic_chevron_right_white_48dp"
+        app:backgroundTint="@color/colorAccent"
+        app:fabCustomSize="72dp"
+        app:maxImageSize="48dp" />
+
+</RelativeLayout>

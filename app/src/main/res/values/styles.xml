@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/teal_faded_900</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/teal_faded_900</item>
+    </style>
+
+    <!-- Toolbar/NoActionBar variant of default Dark Theme -->
+    <style name="AppTheme_Colored_NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/teal_faded_900</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/teal_faded_900</item>
+    </style>
+
+    <!-- Toolbar/NoActionBar variant of default Dark Theme -->
+    <style name="AppTheme_Monotone_NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/grey_900</item>
+        <item name="colorPrimaryDark">@color/grey_900</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/grey_900</item>
+    </style>
+
+    <!-- Popup Menu Dark Theme -->
+    <style name="Popup.Menu.Dark" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:itemBackground">@color/grey_870</item>
+        <item name="android:drawSelectorOnTop">true</item>
+    </style>
+    <!-- Popup Menu Dark Theme -->
+
+</resources>
