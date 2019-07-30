@@ -1,2 +1,2 @@
 # Random Phrases
-Test repo of Random Phrases app.
+Test repo of my Random Phrases app.
